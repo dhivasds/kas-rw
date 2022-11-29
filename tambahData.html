@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Tambah Data Kas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
+    <meta name="keywords" content="bootstrap 5, premium, marketing, multipurpose" />
+    <meta content="Themesbrand" name="author" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/dashboard.css" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+
+
+    <!-- Add Data -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form">
+                    <form class="mt-5 border p-4 shadow" action="" method="post" enctype="multipart/form-data">
+                        <h4 class="mb-5 text-secondary text-center">Tambah Data Kas</h4>
+                        <div class="row">
+                            <div class="mb-3 col-md-12">
+                                <label>Jenis Pemasukan<span class="text-danger">*</span></label>
+                                <input type="text" name="jp" class="form-control"
+                                    placeholder="Masukan jenis pemasukan..">
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label>Jumlah<span class="text-danger">*</span></label>
+                                <input type="number" name="jumlah" class="form-control" placeholder="Masukan jumlah..">
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label>Status<span class="text-danger">*</span></label>
+                                <select class="form-select" id="floatingSelect" name="status">
+                                    <option selected disabled>Pilih..</option>
+                                    <option name="status" value="Kas Masuk">Kas Masuk</option>
+                                    <option name="status" value="Kas Keluar">Kas Keluar</option>
+                                </select>
+                                <div class="form-text">Pilih Jenis Kas (Kas Masuk / Kas Keluar)</div>
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label>Keterangan<span class="text-danger">*</span></label><br>
+                                <textarea name="keterangan" id="" cols="72" rows="3"></textarea>
+                            </div>
+
+
+                            <a href="dashboard.html"><i class="bi bi-arrow-left-short"></i> Kembali</a>
+                            <div class="col-md-12">
+                                <button class="btn btn-primary float-end" name="submit">Tambah Data</button>
+                            </div>
+                            <!-- End Add Data -->
+
+                        </div>
+                        <!-- JS -->
+                        <script type="text/javascript" src="js/main_dashboard.js"></script>
+</body>
+
+</html>
