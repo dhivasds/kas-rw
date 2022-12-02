@@ -1,5 +1,5 @@
 <?php
-    session_start();
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,8 +32,7 @@
         </div>
     </div>
 
-    <section class="bg-account-pages vh-100 d-flex align-items-center bg-center position-relative"
-        style="background-image: url(images/auth-bg.png);">
+    <section class="bg-account-pages vh-100 d-flex align-items-center bg-center position-relative" style="background-image: url(images/auth-bg.png);">
 
         <div class="container">
             <div class="row justify-content-center">
@@ -50,13 +49,11 @@
                                 <form action="" method="post" class="av-invalid">
                                     <div class="mb-3">
                                         <label for="username" class="form-label">Username</label>
-                                        <input name="username" required="" placeholder="Enter username" id="username"
-                                            type="text" class="form-control" value="" />
+                                        <input name="username" required="" placeholder="Enter username" id="username" type="text" class="form-control" value="" />
                                     </div>
                                     <div class="mb-3">
                                         <label for="userpassword" class="form-label">Password</label>
-                                        <input name="password" required="" placeholder="Enter password"
-                                            id="userpassword" type="password" class="form-control" value="" />
+                                        <input name="password" required="" placeholder="Enter password" id="userpassword" type="password" class="form-control" value="" />
                                     </div>
                                     <div class="d-grid mt-3">
                                         <!-- <a href="dashboard.html" type="submit" class="btn btn-primary btn-none">Log
@@ -68,21 +65,21 @@
                                 <!-- end form -->
 
                                 <?php
-                                    include 'db.php';
-                                    if (isset($_POST['submit'])) {
-                                        $username = $_POST['username'];
-                                        $password = $_POST['password'];
+                                include 'db.php';
+                                if (isset($_POST['submit'])) {
+                                    $username = $_POST['username'];
+                                    $password = $_POST['password'];
 
-                                        $sql = mysqli_query($db, "SELECT * FROM users where username = '$username' and password = '$password'");
-                                        $data = mysqli_fetch_array($sql);
-                                        if (mysqli_num_rows($sql) > 0) {
-                                            $_SESSION['admin'] = $username;
-                                            echo '<script>alert("Berhasil Login")</script>';
-                                            echo '<script>window.location = "dashboard.php"</script>';
-                                        } else {
-                                            echo '<script>alert("Username atau password salah")</script>';
-                                        }
+                                    $sql = mysqli_query($db, "SELECT * FROM users where username = '$username' and password = '$password'");
+                                    $data = mysqli_fetch_array($sql);
+                                    if (mysqli_num_rows($sql) > 0) {
+                                        $_SESSION['admin'] = $username;
+                                        echo '<script>alert("Berhasil Login")</script>';
+                                        echo '<script>window.location = "dashboard.php"</script>';
+                                    } else {
+                                        echo '<script>alert("Username atau password salah")</script>';
                                     }
+                                }
                                 ?>
                             </div>
                         </div>
@@ -108,6 +105,7 @@
 
     <!-- App Js -->
     <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

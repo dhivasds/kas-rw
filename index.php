@@ -38,8 +38,7 @@
                 <img src="images/logo-dark.png" alt="" class="logo-dark" height="28" />
                 <img src="images/logo-light.png" alt="" class="logo-light" height="28" />
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="" data-feather="menu"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -62,8 +61,7 @@
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <section class="hero-1 bg-center bg-primary position-relative" style="background-image: url(images/hero-1-bg.png);"
-        id="home">
+    <section class="hero-1 bg-center bg-primary position-relative" style="background-image: url(images/hero-1-bg.png);" id="home">
         <div class="container">
             <div class="row align-items-center hero-content">
                 <div class="col-lg-5">
@@ -74,8 +72,7 @@
                     <a href="javascript: void(0);" class="btn btn-lg btn-light rounded-pill me-2">Get Started</a>
                     <div class="d-inline-block" data-bs-toggle="modal" data-bs-target="#watchvideomodal">
                         <a href="javascript: void(0);" class="video-play-icon text-white">
-                            <span class="play-icon-circle align-middle me-2"><i class="icon-sm icon"
-                                    data-feather="play"></i></span>
+                            <span class="play-icon-circle align-middle me-2"><i class="icon-sm icon" data-feather="play"></i></span>
                             <span>Watch The Video!</span>
                         </a>
                     </div>
@@ -89,8 +86,7 @@
             </div><!-- end row -->
 
             <!-- Modal -->
-            <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1"
-                aria-hidden="true">
+            <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
                     <div class="modal-content hero-modal-0 bg-transparent">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -213,16 +209,13 @@
                             <img src="images/team/1.jpg" alt="" class="img-fluid d-block mx-auto" />
                             <ul class="list-inline p-3 mb-0 team-social-item">
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm"
-                                            data-feather="facebook"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm" data-feather="facebook"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm"
-                                            data-feather="twitter"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm" data-feather="twitter"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm"
-                                            data-feather="instagram"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm" data-feather="instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -240,16 +233,13 @@
                             <img src="images/team/2.jpg" alt="" class="img-fluid d-block mx-auto" />
                             <ul class="list-inline p-3 mb-0 team-social-item">
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm"
-                                            data-feather="facebook"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm" data-feather="facebook"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm"
-                                            data-feather="twitter"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm" data-feather="twitter"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm"
-                                            data-feather="instagram"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm" data-feather="instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -267,16 +257,13 @@
                             <img src="images/team/3.jpg" alt="" class="img-fluid d-block mx-auto" />
                             <ul class="list-inline p-3 mb-0 team-social-item">
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm"
-                                            data-feather="facebook"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm" data-feather="facebook"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm"
-                                            data-feather="twitter"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm" data-feather="twitter"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm"
-                                            data-feather="instagram"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm" data-feather="instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -294,16 +281,13 @@
                             <img src="images/team/4.jpg" alt="" class="img-fluid d-block mx-auto" />
                             <ul class="list-inline p-3 mb-0 team-social-item">
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm"
-                                            data-feather="facebook"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm" data-feather="facebook"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm"
-                                            data-feather="twitter"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-info"><i class="icon-sm" data-feather="twitter"></i></a>
                                 </li>
                                 <li class="list-inline-item mx-3">
-                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm"
-                                            data-feather="instagram"></i></a>
+                                    <a href="javascript: void(0);" class="team-social-icon h-danger"><i class="icon-sm" data-feather="instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -413,6 +397,7 @@
 
     <!-- App Js -->
     <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 

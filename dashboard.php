@@ -1,5 +1,5 @@
 <?php
-    session_start();
+session_start();
 ?>
 <!doctype html>
 <html lang="en">
@@ -34,8 +34,7 @@
                 </div>
                 <div class="header__pane ml-auto">
                     <div>
-                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
-                            data-class="closed-sidebar">
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
                             <span class="hamburger-box">
                                 <span class="hamburger-inner"></span>
                             </span>
@@ -55,8 +54,7 @@
             <!-- Button Logout Mobile -->
             <div class="app-header__menu">
                 <span>
-                    <a href="dashboard.html" type="button"
-                        class="btn-icon btn-icon-only btn btn-danger btn-sm mobile-toggle-header-nav">Logout</a>
+                    <a href="dashboard.html" type="button" class="btn-icon btn-icon-only btn btn-danger btn-sm mobile-toggle-header-nav">Logout</a>
                 </span>
             </div>
             <!-- End Button Logout Mobile -->
@@ -78,8 +76,7 @@
 
                                 <!-- Button Logout -->
                                 <div class="widget-content-right header-user-info ml-3">
-                                    <a href="logout.php" type="button"
-                                        class="btn-shadow p-1 btn btn-danger btn-sm">Logout</a>
+                                    <a href="logout.php" type="button" class="btn-shadow p-1 btn btn-danger btn-sm">Logout</a>
                                     <!-- <button type="button" class="btn-shadow p-1 btn btn-danger btn-sm">
                                         Logout
                                     </button> -->
@@ -99,8 +96,7 @@
                     <div class="logo-src"></div>
                     <div class="header__pane ml-auto">
                         <div>
-                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
-                                data-class="closed-sidebar">
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
                                 <span class="hamburger-box">
                                     <span class="hamburger-inner"></span>
                                 </span>
@@ -119,8 +115,7 @@
                 </div>
                 <div class="app-header__menu">
                     <span>
-                        <button type="button"
-                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
                             <span class="btn-icon-wrapper">
                                 <i class="fa fa-ellipsis-v fa-w-6"></i>
                             </span>
@@ -267,11 +262,8 @@
                                                 <td class="text-center">2022-11-27</td>
                                                 <td class="text-center">2022-11-27</td>
                                                 <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-1"
-                                                        class="btn btn-success"><i
-                                                            class="bi bi-pencil-square"></i></button>
-                                                    <button type="button" id="PopoverCustomT-1"
-                                                        class="btn btn-danger"><i class="bi bi-trash-fill"></i></button>
+                                                    <button type="button" id="PopoverCustomT-1" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
+                                                    <button type="button" id="PopoverCustomT-1" class="btn btn-danger"><i class="bi bi-trash-fill"></i></button>
                                                 </td>
                                             </tr>
                                             <!-- End Data 1 -->
@@ -300,11 +292,8 @@
                                                 <td class="text-center">2022-11-26</td>
                                                 <td class="text-center">2022-11-26</td>
                                                 <td class="text-center">
-                                                    <button type="button" id="PopoverCustomT-1"
-                                                        class="btn btn-success"><i
-                                                            class="bi bi-pencil-square"></i></button>
-                                                    <button type="button" id="PopoverCustomT-1"
-                                                        class="btn btn-danger"><i class="bi bi-trash-fill"></i></button>
+                                                    <button type="button" id="PopoverCustomT-1" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
+                                                    <button type="button" id="PopoverCustomT-1" class="btn btn-danger"><i class="bi bi-trash-fill"></i></button>
                                                 </td>
                                             </tr>
                                             <!-- End Data 2 -->
@@ -325,6 +314,7 @@
         </div>
         <!-- JS -->
         <script type="text/javascript" src="js/main_dashboard.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
